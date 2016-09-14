@@ -1,2 +1,13 @@
 新建并切换分支：git checkout -b 分支名
 
+更改文件后 ： git add 文件名
+			git commit -m ""
+			git push origin 分支名
+			
+如何将分支的变更合并到主分支：
+	第一步：git checkout master
+	第二步：git merge 分支名
+	第三步：git push origin master //更新主分支的远程仓库
+	
+删除分支： git checkout -d 分支名
+
